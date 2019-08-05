@@ -9,6 +9,8 @@ Using primarily used Python in this project for:
 - Parsing and cleaning data.
 - Executing mySQL queries to access our DB.
 - Making visuals using the Matplotlib library.
+
+All notebooks with the source code is located in the notebooks folder.
 ## Getting our data
 We used python's Beautiful Soup library to webscrape from https://www.the-numbers.com/ to get our movie data. We got data on 906 movies released from 1978-2019, and for each movie we got:
 - the title
@@ -37,16 +39,16 @@ First we need to determine which market to cater to: the domestic market or the 
 We can see from this graph that the international gross for movies is trending upwards quicker than the domestic gross for movies. Thus we advise to open up the movie to the international market.
 
 ### What Genre?
-![ROI by Genre](https://github.com/haahussain/movie-statz/blob/wip-brian/images/ROI_by_genre.png "ROI by Genre")
+![ROI by Genre](./images/ROI_by_genre.png "ROI by Genre")
 
 Each graph contains observations for all the movies in that genre. Each movie was plotted on its budget vs. total gross and colored based on its ROI. Plots above the green line (300% ROI) are considered profitable, plots below the red line (0% ROI) have lost money, and plots between the two lines didn't lose money, but is also not very profitable. We chose 300% to be the cut-off for profitability because it gave a good ratio of profitable vs unprofitable for all genres.
 
-![Probability of Profitability](https://github.com/haahussain/movie-statz/blob/wip-brian/images/Profitability_by_genre.png "Probability of Profitability by Genre")
+![Probability of Profitability](./images/Profitability_by_genre.png "Probability of Profitability by Genre")
 
 This table is a summary of the ROI graph. We determined that adventure movies would be the most likely to profit. Even though it didn't have the highest percentage of profitable movies, it did have the most number of observations to back the results. 
 
 ### Who Should Make It?
-![Recommended People](https://github.com/haahussain/movie-statz/blob/wip-brian/images/Recommended_people.png "Recommended directors, writers, and actors/actresses")
+![Recommended People](./images/Recommended_people.png "Recommended directors, writers, and actors/actresses")
 
 We first narrowed down our table of people to only include those who have worked on adventure movies to ensure that they are the most experienced. We compared the average profit per movie of these director, writer, and actor/actress and weighed their profits by the number of adventure movies they have worked on. People who have high average profit but have only worked on one movie will be weighed much lower than people with more experience.
 
