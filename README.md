@@ -4,7 +4,7 @@ Contributors: Haider Hussain and Brian Yee
 In this project, we set out to determine what kind of movie would be the most profitable.
 ## Process
 We set up an AWS RDS to store our data from different sources.
-Using primarily Python in this project for: 
+Using primarily Python programming language in this project for: 
 - Web-scraping and API calls.
 - Parsing and cleaning data.
 - Executing mySQL queries to access our DB.
