@@ -1,4 +1,4 @@
-# movie-statz : Flatiron Data Science Mod 1 Project
+# Movie-Statz : Flatiron Data Science Mod 1 Project
 Contributors: Haider Hussain and Brian Yee
 
 In this project we set out to determine what kind of movie would be the most profitable.
@@ -12,7 +12,7 @@ Using primarily Python programming language in this project for:
 
 All notebooks with the source code is located in the notebooks folder.
 ## Getting our data
-We used python's Beautiful Soup library to webscrape from https://www.the-numbers.com/ to get our movie data. We got data on 906 movies released from 1978-2019, and for each movie we got:
+We used python's Beautiful Soup library to webscrape from https://www.the-numbers.com/ to get our movie data. We got data from 1978-2019 on 906 movies. For each movie we got:
 - the title
 - the budget
 - the domestic gross
