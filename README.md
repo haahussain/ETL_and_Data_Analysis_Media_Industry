@@ -10,7 +10,7 @@ Using primarily Python programming language in this project for:
 - Executing mySQL queries to access our DB.
 - Making visuals using the Matplotlib library.
 
-All notebooks with the source code is located in the notebooks folder.
+All notebooks with the source code are located in the notebooks folder.
 ## Getting our data
 We used python's Beautiful Soup library to webscrape from https://www.the-numbers.com/ to get our movie data. We got data from 1978-2019 on 906 movies. For each movie we got:
 - the title
